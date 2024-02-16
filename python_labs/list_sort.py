@@ -8,7 +8,7 @@ def data(list1):
         for i in list1:
             j= i*i
             list3.append(j)
-        print (sorted(list3))
+        print ("Sorted List of Numbers: ", sorted(list3))
     else:
         print("Input list is empty!!")
 data(list1)
